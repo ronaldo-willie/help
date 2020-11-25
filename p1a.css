@@ -1,0 +1,102 @@
+td:nth-of-type(1)::before {
+    content: "Constituency";
+
+}
+
+td:nth-of-type(2)::before {
+    content: "Polling Div.";
+
+}
+
+td:nth-of-type(3)::before {
+    content: "Polling Stn";
+
+}
+
+td:nth-of-type(4)::before {
+    content: "Location";
+
+}
+
+td:nth-of-type(5)::before {
+    content: "Candidate1";
+
+}
+td:nth-of-type(6)::before {
+    content: "Candidate2";
+
+}
+
+td:nth-of-type(7)::before {
+    content: "Rejected";
+
+}
+td:nth-of-type(8)::before {
+    content: "Total";
+
+}
+
+tfoot{
+	display: none;
+}
+
+
+/* ----------------------------------------------- */
+/* Alignment for headers*/
+/* ----------------------------------------------- */
+
+table, thead, tbody, th, td, tr {
+    display: block;
+}
+
+.left-align{
+	display: none;
+}
+
+.right-align{
+	display: none;
+}
+/*
+thead{
+	background-color: #687290;
+	color: white;
+}
+
+table{
+	font-family: tahoma;
+	font-size: 13px;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th,td{
+	padding-left: 7px;
+}
+
+td{
+	border-bottom: 1px solid white;
+}
+
+tbody >tr:nth-child(odd){
+	background-color: #dfe1e8;
+}
+
+tbody >tr:nth-child(even){
+	background-color:#eeeff4 ;
+}
+
+tfoot{
+	display: none;
+}
+
+.left-align{
+	text-align: left;
+}
+.center-align{
+	text-align: center;
+}
+
+.email-hover:hover{
+	color:#cc6600;
+}
+*/
